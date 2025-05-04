@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>TomateRitmoLandingPage</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="images/logoProducto.png">
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <a href="#home" class="logo">
+                <img src="images/logoProducto.png" alt="Logo">
+            </a>
+            <a href="#about-product">Acerca del Producto</a>
+            <a href="#subscriptions">Subscripciones</a>
+            <a href="#reviews">Reseñas</a>
+            <a href="#contact-us">Contáctanos</a>
+            <a href="#about-us">Acerce de Nosotros</a>
+        </div>
+
+        <div class="right">
+            <a href="index.html">Inglés</a>
+            <a href="src/ingreso/sign-up-es.html">Registrase</a>
+            <a href="src/ingreso/log-in-es.html">Ingresar</a>
+        </div>
+    
+    </nav>
+
+    <section id="home">
+        <div class="overlay"></div> 
+        <div class="centered-text">
+            <h1>TomateRitmo</h1>
+            <h2>¡Optimice sus cultivos de tomates con nuestra plataforma inteligente!</h2> 
+            <div class="white-button">
+                <a href="" class="button">Empezar ya</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-product">
+        <h2>Descubre más de nuestra plataforma</h2>
+        <p class="largeText">TomateRitmo automatiza y optimiza el cuidado de tus cultivos de tomates utilizando sensores IoT, inteligencia artificial y monitoreo en tiempo real para garantizar cosechas saludables y productivas.</p>
+        <h3>Descubre todas las funcionalidades que TomateRitmo tiene disponibles</h3>
+        <div class="image-grid">
+            <div class="image-item">
+                <img src="images/anomalia.png" alt="agriculturalAnalysis" >
+                <p class="image-description">Detección visual de </br> anomalías</p>
+            </div>
+            <div class="image-item">
+                <img src="images/riego.png" alt="traceability">
+                <p class="image-description">Riego automático</p>
+            </div>
+            <div class="image-item">
+                <img src="images/monitoreo.png" alt="statisticalGraphs">
+                <p class="image-description">Monitoreo en tiempo real</p>
+            </div>
+            <div class="image-item">
+                <img src="images/alerta.png" alt="processOptimization">
+                <p class="image-description">Alertas inteligentes</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about-product-video">
+    <h2>Acerca del producto</h2>
+    <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="subscriptions">
+        <h2>Nuestros Precios</h2>
+        <h3>Seleciona de acuerdo a tus preferencias</h3>
+        <div class="ourSubs">
+        <div class="subNum">
+            <h2>Básico</h2>
+            <h1 class="dual-font-size">$2.99<span class="smallText">/mes</span></h1>
+            <h4><span class="lucide--circle-check-big"></span>Detección básica de anomalías.</h4>
+            <h4><span class="lucide--circle-check-big"></span>Notificaciones esenciales.</h4>
+            <h4><span class="lucide--circle-check-big"></span>Funciones básicas de monitoreo.</h4>
+            <button class="register-btn" onclick="window.location.href = 'src/ingreso/sign-up-es.html';">Registrarse</button>
+        </div>
+        <div class="subNum">
+            <h2>Regular</h2>
+            <h1 class="dual-font-size">$7.99<span class="smallText">/mes</span></h1>
+            <h4><span class="lucide--circle-check-big"></span>Todo lo del Plan Básico.</h4>
+            <h4><span class="lucide--circle-check-big"></span>Gráficos estadísticos.</h4>
+            <h4><span class="lucide--circle-check-big"></span>Alertas avanzadas con recomendaciones.</h4>
+            <button class="register-btn" onclick="window.location.href = 'src/ingreso/sign-up-es.html';">Registrarse</button> 
+        </div>
+        <div class="subNum">
+            <h2>Premium</h2>
+            <h1 class="dual-font-size">$14.99<span class="smallText">/mes</span></h1>
+            <h4><span class="lucide--circle-check-big"></span>Todo lo del Plan Regular.</h4>
+            <h4><span class="lucide--circle-check-big"></span>Cultivos ilimitados.</h4>
+            <h4><span class="lucide--circle-check-big"></span>Personalización de alertas.</h4>
+            <h4><span class="lucide--circle-check-big"></span>Automatización completa del riego y detección con IA.</h4>
+            <button class="register-btn" onclick="window.location.href = 'src/ingreso/sign-up-es.html';">Registrarse</button> 
+        </div>
+    </div>
+    </section>
+
+
+    <section id="reviews">
+    <div class="testimonial-container">
+        <h2>Lo que comentan nuestros usuarios</h2>
+        <div class="testimonial-slide active">
+            <img src="images/SebastianRamirez.png" alt="farmerPic_expertOne" class="testimonial-image">
+            <div class="testimonial-name">Sebastián Ramíre</div>
+            <div class="testimonial-text">"TomateRitmo me ha ayudado a automatizar el riego y detectar problemas en mis cultivos a tiempo. Es una herramienta muy útil para mejorar la productividad."</div>
+        </div>
+        <div class="testimonial-slide">
+            <img src="images/María López.png" alt="farmerPic_amateur" class="testimonial-image">
+            <div class="testimonial-name">María López</div>
+            <div class="testimonial-text">"Gracias a TomateRitmo, ahora puedo monitorear mis cultivos desde el celular y recibir alertas cuando algo no está bien. Es fácil de usar y eficiente."</div>
+        </div>
+        <div class="testimonial-slide">
+            <img src="images/Carlos Vega.png" alt="farmerPic_expertTwo" class="testimonial-image">
+            <div class="testimonial-name">Carlos Vega </div>
+            <div class="testimonial-text">"Con TomateRitmo, cuidar mis tomates en casa es más sencillo. Me encanta cómo detecta problemas y me da recomendaciones claras."</div>
+        </div>
+        <div class="testimonial-arrows left" onclick="changeTestimonial(-1)">&#10094;</div>
+        <div class="testimonial-arrows right" onclick="changeTestimonial(1)">&#10095;</div>
+    </div>
+    </section>
+
+    <section id="contact-us">
+        <div class="contact-container">
+            <div class="info">
+                <h2>Contact us</h2>
+                <p><a class="social-icons" href="https://www.facebook.com"><i class="fa fa-facebook-f"></i></a>
+                    <a class="social-icons" href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                    <a class="social-icons" href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></p>
+                <p>Av. de la Marina 2890, San Miguel 15087</p>
+                <p>tomateritmo@gmail.com</p>
+                <p>955 923 121</p>
+            </div>
+        
+            <div class="form">
+                <h2>Como podemos ayudarte?</h2>
+                <form action="/submit_form" method="post">
+                    <input type="text" name="name" placeholder="Nombre" required>
+                    <input type="email" name="email" placeholder="Correo" required>
+                    <textarea name="description" placeholder="Descripción" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>        
+    </section>
+
+    <section id="about-us">
+
+    <h2>Nuestro Equipo</h2>
+    <div class="our_team">
+        <div class="team_member">
+            <h3>Paolo Guillen</h3>
+            <img src="images/paoloPhoto.jpg" alt="Paolo Guillen member" class="testimonial-image" >
+          <p>Mi nombre es Paolo César Guillen Luna, estudiante de la carrera de Ingeniería de Software, en la UPC,me gustaría especializarme en lo que es el testing de este, razón por la cual aparte de seguir la malla curricular de mi carrera también ando aprendiendo herramientas para testing automatizado.</p>
+        </div>
+        <div class="team_member">
+            <h3>Adriano Cruz</h3>
+            <img src="images/AdrianoCruz.png" alt="Diego Cantoral member" class="testimonial-image">
+          <p>Mi nombre es Adriano Sebastian Cruz Palomino, tengo 20 años, soy alumno de Ingeniería de Software en la UPC, actualmente estoy cursando el 7mo ciclo. Soy una persona curiosa, responsable, y comprometida con mis estudios, siempre busco aprender más y mejorar mis habilidades. </p>
+      </div>
+        <div class="team_member">
+            <h3>Elias Yauri</h3>
+            <img src="images/elias.png" alt="Amner Llamo"  class="testimonial-image">
+          <p>Mi nombre es Elias Yauri Paucar, soy una persona muy participativa cuando se trata en el tema laboral y en el trabajo en equipo, siempre trato de que haya una comunicación constante con todos los miembros del grupo para que de esta forma podamos tener toda una buena afinidad como grupo y que el trabajo se realice de manera exitosa. </p>
+      </div>
+        <div class="team_member">
+            <h3>Randy Becker</h3>
+             <img src="https://i.postimg.cc/sfpMdF94/Randy.jpg" alt=""  class="testimonial-image">
+          <p>Randy Becker Rengifo Mirabal, estudiante de Ingeniería de Software en la UPC, cursa el octavo ciclo. Es proactivo, responsable y comprometido, con interés en tecnología, desarrollo de software e innovación. Disfruta trabajar en equipo, busca soluciones eficientes y se enfoca en el aprendizaje continuo para fortalecer habilidades técnicas y personales.</p>
+      </div>  
+    </div>
+  
+    </section>
+
+    <section id="about-team-video">
+    <h2>¡Conoce más sobre el equipo de TomateRitmo!</h2>
+    <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+
+    <footer id="footerOne">
+        <a class="normal">TomateRitmo</a>
+        <a class="normal">Av. de la Marina 2810, San Miguel 15087</a>
+        <a class="normal">tomateritmo@gmail.com</a>
+        <a class="normal">955 923 121</a>
+        <a class="social-icons" href="https://www.facebook.com"><i class="fa fa-facebook-f"></i></a>
+        <a class="social-icons" href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+        <a class="social-icons" href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
+    </footer>   
+    
+    <footer id="footerTwo">
+        <a>&copy; Copyright Error 404 2025</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

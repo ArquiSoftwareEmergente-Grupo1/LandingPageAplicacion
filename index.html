@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>TomateRitmoLandingPage</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="images/logoProducto.png">
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <a href="#home" class="logo">
+                <img src="images/logoProducto.png" alt="Logo">
+            </a>
+            <a href="#about-product">About the Product</a>
+            <a href="#subscriptions">Subscriptions</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact-us">Contact Us</a>
+            <a href="#about-us">About Us</a>
+        </div>
+
+        <div class="right">
+            <a href="index.html">English</a>
+            <a href="src/ingreso/sign-up-es.html">Sign Up</a>
+            <a href="src/ingreso/log-in-es.html">Log In</a>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="overlay"></div> 
+        <div class="centered-text">
+            <h1>TomateRitmo</h1>
+            <h2>Optimize your tomato crops with our smart platform!</h2> 
+            <div class="white-button">
+                <a href="" class="button">Start Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-product">
+        <h2>Discover more about our platform</h2>
+        <p class="largeText">TomateRitmo automates and optimizes the care of your tomato crops using IoT sensors, artificial intelligence, and real-time monitoring to ensure healthy and productive harvests.</p>
+        <h3>Discover all the features TomateRitmo has available</h3>
+        <div class="image-grid">
+            <div class="image-item">
+                <img src="images/anomalia.png" alt="agriculturalAnalysis" >
+                <p class="image-description">Visual detection of <br> anomalies</p>
+            </div>
+            <div class="image-item">
+                <img src="images/riego.png" alt="traceability">
+                <p class="image-description">Automatic irrigation</p>
+            </div>
+            <div class="image-item">
+                <img src="images/monitoreo.png" alt="statisticalGraphs">
+                <p class="image-description">Real-time monitoring</p>
+            </div>
+            <div class="image-item">
+                <img src="images/alerta.png" alt="processOptimization">
+                <p class="image-description">Smart alerts</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about-product-video">
+    <h2>About the product</h2>
+    <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="subscriptions">
+        <h2>Our Prices</h2>
+        <h3>Select according to your preferences</h3>
+        <div class="ourSubs">
+        <div class="subNum">
+            <h2>Basic</h2>
+            <h1 class="dual-font-size">$2.99<span class="smallText">/month</span></h1>
+            <h4><span class="lucide--circle-check-big"></span>Basic anomaly detection.</h4>
+            <h4><span class="lucide--circle-check-big"></span>Essential notifications.</h4>
+            <h4><span class="lucide--circle-check-big"></span>Basic monitoring features.</h4>
+            <button class="register-btn" onclick="window.location.href = 'src/ingreso/sign-up-es.html';">Sign Up</button>
+        </div>
+        <div class="subNum">
+            <h2>Regular</h2>
+            <h1 class="dual-font-size">$7.99<span class="smallText">/month</span></h1>
+            <h4><span class="lucide--circle-check-big"></span>Everything in the Basic Plan.</h4>
+            <h4><span class="lucide--circle-check-big"></span>Statistical graphs.</h4>
+            <h4><span class="lucide--circle-check-big"></span>Advanced alerts with recommendations.</h4>
+            <button class="register-btn" onclick="window.location.href = 'src/ingreso/sign-up-es.html';">Sign Up</button> 
+        </div>
+        <div class="subNum">
+            <h2>Premium</h2>
+            <h1 class="dual-font-size">$14.99<span class="smallText">/month</span></h1>
+            <h4><span class="lucide--circle-check-big"></span>Everything in the Regular Plan.</h4>
+            <h4><span class="lucide--circle-check-big"></span>Unlimited crops.</h4>
+            <h4><span class="lucide--circle-check-big"></span>Alert customization.</h4>
+            <h4><span class="lucide--circle-check-big"></span>Full automation of irrigation and AI detection.</h4>
+            <button class="register-btn" onclick="window.location.href = 'src/ingreso/sign-up-es.html';">Sign Up</button> 
+        </div>
+    </div>
+    </section>
+
+    <section id="reviews">
+    <div class="testimonial-container">
+        <h2>What our users say</h2>
+        <div class="testimonial-slide active">
+            <img src="images/SebastianRamirez.png" alt="farmerPic_expertOne" class="testimonial-image">
+            <div class="testimonial-name">Sebastián Ramíre</div>
+            <div class="testimonial-text">"TomateRitmo has helped me automate irrigation and detect problems in my crops on time. It's a very useful tool to improve productivity."</div>
+        </div>
+        <div class="testimonial-slide">
+            <img src="images/María López.png" alt="farmerPic_amateur" class="testimonial-image">
+            <div class="testimonial-name">María López</div>
+            <div class="testimonial-text">"Thanks to TomateRitmo, I can now monitor my crops from my phone and receive alerts when something is wrong. It's easy to use and efficient."</div>
+        </div>
+        <div class="testimonial-slide">
+            <img src="images/Carlos Vega.png" alt="farmerPic_expertTwo" class="testimonial-image">
+            <div class="testimonial-name">Carlos Vega </div>
+            <div class="testimonial-text">"With TomateRitmo, taking care of my tomatoes at home is easier. I love how it detects problems and gives me clear recommendations."</div>
+        </div>
+        <div class="testimonial-arrows left" onclick="changeTestimonial(-1)">&#10094;</div>
+        <div class="testimonial-arrows right" onclick="changeTestimonial(1)">&#10095;</div>
+    </div>
+    </section>
+
+    <section id="contact-us">
+        <div class="contact-container">
+            <div class="info">
+                <h2>Contact us</h2>
+                <p><a class="social-icons" href="https://www.facebook.com"><i class="fa fa-facebook-f"></i></a>
+                    <a class="social-icons" href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                    <a class="social-icons" href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></p>
+                <p>Av. de la Marina 2890, San Miguel 15087</p>
+                <p>tomateritmo@gmail.com</p>
+                <p>955 923 121</p>
+            </div>
+        
+            <div class="form">
+                <h2>How can we help you?</h2>
+                <form action="/submit_form" method="post">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="description" placeholder="Description" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>        
+    </section>
+
+    <section id="about-us">
+
+    <h2>Our Team</h2>
+    <div class="our_team">
+        <div class="team_member">
+            <h3>Paolo Guillen</h3>
+            <img src="images/paoloPhoto.jpg" alt="Paolo Guillen member" class="testimonial-image" >
+          <p>My name is Paolo César Guillen Luna, a Software Engineering student at UPC. I would like to specialize in software testing, which is why, in addition to following my career curriculum, I am also learning automated testing tools.</p>
+        </div>
+        <div class="team_member">
+            <h3>Adriano Cruz</h3>
+            <img src="images/AdrianoCruz.png" alt="Diego Cantoral member" class="testimonial-image">
+          <p>My name is Adriano Sebastian Cruz Palomino, I am 20 years old, a Software Engineering student at UPC, currently in my 7th semester. I am a curious, responsible, and committed person, always looking to learn more and improve my skills.</p>
+      </div>
+        <div class="team_member">
+            <h3>Elias Yauri</h3>
+            <img src="images/elias.png" alt="Amner Llamo"  class="testimonial-image">
+          <p>My name is Elias Yauri Paucar, I am a very participative person when it comes to work and teamwork. I always try to maintain constant communication with all group members so that we can have good group affinity and the work is done successfully.</p>
+      </div>
+        <div class="team_member">
+            <h3>Randy Becker</h3>
+             <img src="https://i.postimg.cc/sfpMdF94/Randy.jpg" alt=""  class="testimonial-image">
+          <p>Randy Becker Rengifo Mirabal, Software Engineering student at UPC, currently in the eighth semester. He is proactive, responsible, and committed, with an interest in technology, software development, and innovation. He enjoys teamwork, seeks efficient solutions, and focuses on continuous learning to strengthen technical and personal skills.</p>
+      </div>  
+    </div>
+  
+    </section>
+
+    <section id="about-team-video">
+    <h2>Get to know more about the TomateRitmo team!</h2>
+    <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <footer id="footerOne">
+        <a class="normal">TomateRitmo</a>
+        <a class="normal">Av. de la Marina 2810, San Miguel 15087</a>
+        <a class="normal">tomateritmo@gmail.com</a>
+        <a class="normal">955 923 121</a>
+        <a class="social-icons" href="https://www.facebook.com"><i class="fa fa-facebook-f"></i></a>
+        <a class="social-icons" href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+        <a class="social-icons" href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
+    </footer>   
+    
+    <footer id="footerTwo">
+        <a>&copy; Copyright Error 404 2025</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
